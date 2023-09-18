@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Fondo color de la barra de navegacion */
+
+.fondo-barra-navegacion{
+    background-color: #946c52;
+    font-family: futurabook,serif;
+    letter-spacing: 1.5px;  
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+/* Imagen de fondo ubicada debajo de la barra de navegacion */
+
+.fondo {
+    background-image: url('../src/assets/30.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    margin-top: 200px;
+  }
+
+ /* Estilo del titulo que esta ubicado arriba del carrusel */
+ 
+ .estilo-titulo{
+    color: #95a5a6;
+    padding-top: 3px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: default;
+    font-family: "Open Sans"; 
+    margin: 43px 0px 10px;
+    padding: 3px 0px 0px;
+ }
+ 
+ /* estilo de los botones del carrusel */
+ 
+.swiper-button-next:after {
+
+    color: #a8a6a1f3;
+}  
+.swiper-button-prev:after { 
+    color: #a8a5a0;
+}
+
+/* Estilos de los circulos del carrulse */
+
+.swiper-pagination-bullet-active{
+   background-color:black;
+}  
+
+/* Estilo de titulo Quienes Somos */
+.estilo-titulo-quienes-somos{
+    color: #95a5a6;
+    padding-top: 3px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: default;
+    font-family: futurabook,serif;
+    
+ }
+ /* Estilo parrafo musa */
+ .estilo-parrafo-musa{
+    font-size: 22px;
+    font-style:oblique;
+    font-weight: 300;
+    line-height: 2;
+    font-family: futurabook,serif; 
+    letter-spacing: 2px;
+    text-align: center;
+    
+ }
+ 
+ /* Estilo parrafo de presentacion quienes somos */
+ .estilo-parrafo-presentacion{
+   font-size: 24px;
+   font-style: cursiva;
+   font-weight: 300;
+   line-height: 2;
+   font-family: "Open Sans"; 
+   letter-spacing: 2px;
+   text-align: center;
+   
+ }
+ /* Estilo parrafos de asesoramiento */
+ .estilo-parrafo-asesoramiento{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2;
+    font-family: futurabook,serif;
+    letter-spacing: 2px;
+    text-align: center;
+    
+
+ }
+ .estilo-parrafo-asesoramiento-2{
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 2.4;
+   font-family: futurabook,serif;
+   letter-spacing: 2.4px;
+   text-align: center;
+   
+   
+ }
+ .estilo-parrafo-asesoramiento-3{
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 2.4;
+   font-family: futurabook,serif;
+   letter-spacing: 2.4px;
+   text-align: center;
+
+ }
+ .estilo-parrafo-asesoramiento-4{
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 2.4;
+   font-family: futurabook,serif;
+   letter-spacing: 2.4px;
+   text-align: center;
+
+ }
+ .estilo-parrafo-asesoramiento-5{    
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 2.4;
+   font-family: futurabook,serif;
+   letter-spacing: 2.4px;
+   text-align: center;
+    
+   
+    
+ }
+ /* Boton enviar */
+ .boton-enviar{
+   background: #946c52
+ }
+ .boton-enviar:hover {
+   background: #b89778;
+ }
